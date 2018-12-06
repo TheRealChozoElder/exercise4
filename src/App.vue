@@ -7,6 +7,7 @@
             <title>RPS game</title>
         </head>
         <body id = "app">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"></script>
             <script src="https://npmcdn.com/vue/dist/vue.js"></script>
             <script src="app.js"></script>
             <section>
@@ -116,104 +117,104 @@ export default {
 </script>
 
 <style>
-   .text-center {
-    text-align: center;
-}
+    .text-center {
+        text-align: center;
+    }
 
-.wins {
-    width: 80%;
-    color: black;
-    height: 40px;
-    background-color: #eee;
-    margin: auto;
-    transition: width 1000ms;
-}
+    .wins {
+        width: 80%;
+        color: black;
+        height: 40px;
+        background-color: #eee;
+        margin: auto;
+        transition: width 1000ms;
+    }
 
-.controls, .log {
-    margin-top: 30px;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 3px 6px #ccc;
-}
+    .controls, .log {
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 3px 6px #ccc;
+    }
 
-.turn {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 22px;
-}
+    .turn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 22px;
+    }
 
-.log ul {
-    list-style: none;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+    .log ul {
+        list-style: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
-.log ul li {
-    margin: 5px;
-}
+    .log ul li {
+        margin: 5px;
+    }
 
-.log ul .player-turn {
-    color: green;
-    background-color: #aaffb0;
-}
+    .log ul .player-turn {
+        color: green;
+        background-color: #aaffb0;
+    }
 
-.log ul .computer-turn {
-    color: red;
-    background-color: #ffc0c1;
-}
+    .log ul .computer-turn {
+        color: red;
+        background-color: #ffc0c1;
+    }
 
-.log ul .tie-turn {
-  color: blue;
-  background-color: #e4e8ff;
-}
+    .log ul .tie-turn {
+        color: blue;
+        background-color: #e4e8ff;
+    }
 
-button {
-    font-size: 20px;
-    background-color: #eee;
-    padding: 12px;
-    box-shadow: 0 1px 1px black;
-    margin: 10px;
-}
+    button {
+        font-size: 20px;
+        background-color: #eee;
+        padding: 12px;
+        box-shadow: 0 1px 1px black;
+        margin: 10px;
+    }
 
-#start-game {
-    background-color: #e4e8ff;
-}
+    #start-game {
+        background-color: #e4e8ff;
+    }
 
-#start-game:hover {
-  background-color: #687eff;
-}
+    #start-game:hover {
+        background-color: #687eff;
+    }
 
-#rock {
-    background-color: #ff7367;
-}
+    #rock {
+        background-color: #ff7367;
+    }
 
-#rock:hover {
-    background-color: #ff3f43;
-}
+    #rock:hover {
+        background-color: #ff3f43;
+    }
 
-#paper {
-    background-color: #ffaf4f;
-}
+    #paper {
+        background-color: #ffaf4f;
+    }
 
-#paper:hover {
-    background-color: #ff9a2b;
-}
+    #paper:hover {
+        background-color: #ff9a2b;
+    }
 
-#scissors {
-    background-color: #aaffb0;
-}
+    #scissors {
+        background-color: #aaffb0;
+    }
 
-#scissors:hover {
-    background-color: #76ff7e;
-}
+    #scissors:hover {
+        background-color: #76ff7e;
+    }
 
-#restart {
-    background-color: #ffffff;
-}
+    #restart {
+        background-color: #ffffff;
+    }
 
-#restart:hover {
-    background-color: #c7c7c7;
-}
+    #restart:hover {
+        background-color: #c7c7c7;
+    }
 </style>
