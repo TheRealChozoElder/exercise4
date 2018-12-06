@@ -7,7 +7,6 @@
             <title>RPS game</title>
         </head>
         <body id = "app">
-            <script src="https://npmcdn.com/vue/dist/vue.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"></script>
             <script src="https://npmcdn.com/vue/dist/vue.js"></script>
             <script src="app.js"></script>
